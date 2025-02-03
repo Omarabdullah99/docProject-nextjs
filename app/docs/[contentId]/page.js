@@ -1,8 +1,12 @@
+import ContentDisplay from '@/components/ContentDisplay'
 import React from 'react'
 
 const ContentPage = ({params:{contentId}}) => {
   return (
-    <div>{contentId}</div>
+    <div>
+
+      <ContentDisplay id={contentId}/>
+    </div>
   )
 }
 
