@@ -1,8 +1,11 @@
+import ContentDisplay from '@/components/ContentDisplay'
 import React from 'react'
 
 const SubContentPage = ({params:{subContentId}}) => {
   return (
-    <div>{subContentId}</div>
+    <div>
+      <ContentDisplay id={subContentId}/>
+    </div>
   )
 }
 
